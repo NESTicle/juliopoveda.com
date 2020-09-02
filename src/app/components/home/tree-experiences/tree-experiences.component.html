@@ -19,70 +19,30 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <ul class="list">
-                        <li>
+                        <li *ngFor="let item of experiences">
                             <span></span>
                             <div class="media">
                                 <div class="d-flex">
-                                    <p>March 2017 to present</p>
+                                    <p>{{item.date}}</p>
                                 </div>
-                                <div class="media-body">
-                                    <h4>Colorlib</h4>
-                                    <p>Senior Web Developer <br>Santa monica, Los angeles</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span></span>
-                            <div class="media">
-                                <div class="d-flex">
-                                    <p>March 2017 to present</p>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Colorlib</h4>
-                                    <p>Senior Web Developer <br>Santa monica, Los angeles</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span></span>
-                            <div class="media">
-                                <div class="d-flex">
-                                    <p>March 2017 to present</p>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Colorlib</h4>
-                                    <p>Senior Web Developer <br>Santa monica, Los angeles</p>
+
+                                <div class="media-body pl-5">
+                                    <h4>
+                                        {{item.work}}
+                                    </h4>
+                                    <p>
+                                        <small>{{item.name}}</small>
+                                        <br>
+                                        {{item.description}}
+                                    </p>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
+
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <ul class="list">
-                        <li>
-                            <span></span>
-                            <div class="media">
-                                <div class="d-flex">
-                                    <p>March 2017 to present</p>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Colorlib</h4>
-                                    <p>Senior Web Developer <br>Santa monica, Los angeles</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <span></span>
-                            <div class="media">
-                                <div class="d-flex">
-                                    <p>March 2017 to present</p>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Colorlib</h4>
-                                    <p>Senior Web Developer <br>Santa monica, Los angeles</p>
-                                </div>
-                            </div>
-                        </li>
                         <li>
                             <span></span>
                             <div class="media">
