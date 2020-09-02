@@ -17,7 +17,7 @@ export class TreeExperiencesComponent implements OnInit {
         name: 'Full Stack Developer',
         date: 'September 01, 2019',
         work: 'CDC - Cartel Damage Claims',
-        description: `Software developer`
+        description: `Im currently working as freelance developing software in Nodejs, Asp.net Core and Angular 10`
       },
       {
         name: 'Full Stack Developer',
