@@ -28,6 +28,11 @@ export class ProjectsHomeComponent implements OnInit {
         info: 'php + mysql'
       },
       {
+        img: '/assets/images/projects/leccionesAprendidas.png',
+        project: 'Lecciones Aprendidas',
+        info: 'asp.net core + angular + mongodb'
+      },
+      {
         img: '/assets/images/projects/facilityWarez.png',
         project: 'Facility Warez',
         info: 'blogspot'
