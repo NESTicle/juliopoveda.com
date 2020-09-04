@@ -42,13 +42,13 @@ export class TreeExperiencesComponent implements OnInit {
         date: 'June 08, 2013',
         work: 'Corprevenir',
         description: 'Dev a tool for the administration and management of invoices in Lightswitch C#, an app developed to manage orders made by SURA for the Corprevenir company that require going through certain processes to finally invoice.'
-      },
-      {
-        name: 'Full Stack Developer',
-        work: 'University Project',
-        date: 'February 2, 2011',
-        description: 'Creation of a project called “Pixicity”, it was a “Link Sharing System” where all kinds of information could be shared through “Posts”.'
       }
+      // {
+      //   name: 'Full Stack Developer',
+      //   work: 'University Project',
+      //   date: 'February 2, 2011',
+      //   description: 'Creation of a project called “Pixicity”, it was a “Link Sharing System” where all kinds of information could be shared through “Posts”.'
+      // }
     ];
   }
 

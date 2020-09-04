@@ -15,19 +15,28 @@ export class ProjectsHomeComponent implements OnInit {
       {
         img: '/assets/images/projects/vinylClub.png',
         project: 'Vinyl Catalog App',
-        info: 'asp.net core'
+        info: 'asp.net core + angular'
       },
       {
         img: '/assets/images/projects/crm_news.png',
         project: 'Content Management System for News',
-        info: 'asp.net core'
+        info: 'asp.net mvc + angular.js'
       },
       {
         img: '/assets/images/projects/pixicity.png',
         project: 'Pixicity',
         info: 'php + mysql'
+      },
+      {
+        img: '/assets/images/projects/facilityWarez.png',
+        project: 'Facility Warez',
+        info: 'blogspot'
+      },
+      {
+        img: '/assets/images/projects/arcanoMuebles.png',
+        project: 'Arcano Muebles',
+        info: 'wordpress'
       }
     ];
   }
-
 }
