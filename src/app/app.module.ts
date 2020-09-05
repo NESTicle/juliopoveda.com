@@ -9,6 +9,10 @@ import { AboutMeHomeComponent } from './components/home/about-me-home/about-me-h
 import { ServicesHomeComponent } from './components/home/services-home/services-home.component';
 import { ProjectsHomeComponent } from './components/home/projects-home/projects-home.component';
 import { MainFooterComponent } from './components/sections/main-footer/main-footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogViewProjectComponent } from './components/dialogs/dialog-view-project/dialog-view-project.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,15 @@ import { MainFooterComponent } from './components/sections/main-footer/main-foot
     AboutMeHomeComponent,
     ServicesHomeComponent,
     ProjectsHomeComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    DialogViewProjectComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
